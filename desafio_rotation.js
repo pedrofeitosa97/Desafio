@@ -21,11 +21,12 @@ fibonnaci = (fibonacci_length, fibonacci_number) => {
     
     if(fibonacci_arr.includes(fibonacci_number)) {
         console.log('Pertence a sequência.')
+    } else {
+        console.log('Não pertence a sequência.')
     }
-    console.log('Não pertence a sequência.')
 }
 
-fibonnaci(20, 5)
+fibonnaci(20, 7)
 
 // DESAFIO [3]
 
